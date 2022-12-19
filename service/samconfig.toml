@@ -1,0 +1,12 @@
+version = 0.1
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "onabcn"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-w6ieelee8cum"
+s3_prefix = "onabcn"
+region = "eu-west-1"
+profile = "onabcn"
+confirm_changeset = true
+capabilities = "CAPABILITY_IAM"
+image_repositories = []
